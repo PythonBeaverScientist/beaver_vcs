@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "beaver-vcs"
+version = "0.1.0"
+description = "vcs using python"
+authors = ["beaver"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
